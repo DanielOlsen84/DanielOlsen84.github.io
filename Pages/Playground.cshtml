@@ -1,0 +1,22 @@
+﻿@page
+@model PlaygroundModel
+@{
+    ViewData["Title"] = "Playground";
+}
+<script src="~/js/site.js"></script>
+
+<div><div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+        <div class="card card-body bg-primary">
+            <p>testing</p>
+            <input id="userNumber" type="text" />
+            
+            <div class="d-inline-flex">
+                <button class="btn-light" id="myButton1">Add</button>
+                <button class="btn-warning" id="myButton2">Print</button>
+                <button class="btn-danger" id="myButton3">Clear Array</button>
+                <button class="btn-dark" id="myButton4">Medeltal</button>
+            </div>
+            <textarea id="answer" rows="2" cols="20"></textarea>
+        </div>
+</div></div>
